@@ -1,3 +1,2 @@
 import cmath
-a=-17**0.5
-print(a)
+print (cmath.sqrt(-17))
