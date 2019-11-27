@@ -20,7 +20,7 @@ def szyfrCezara(zdanie):
         else:
             nr=ciag.index(i)
             ciag[nr]=chr(i)
-    print (''.join(ciag))
+    return ''.join(ciag)
 
 def deszyfrCezara(zdanie):
     litery=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
@@ -44,4 +44,4 @@ def deszyfrCezara(zdanie):
         else:
             nr=ciag.index(i)
             ciag[nr]=chr(i)
-    print (''.join(ciag))
+    return ''.join(ciag)
