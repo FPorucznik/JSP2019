@@ -15,4 +15,16 @@ def jakiBoczny(a,b,c):
     else:
         return 'Trójąt różnoboczny'
 
-jakiBoczny(1,1,2)
+def jakiKatny(a,b,c):
+    boki=[]
+    boki.append(a)
+    boki.append(b)
+    boki.append(c)
+    najdluzszy=max(boki)
+    boki.remove(najdluzszy)
+    if najdluzszy**2>boki[0]**2+boki[1]**2:
+        return 'Trójkąt rozwartokątny'
+    elif najdluzszy**2==boki[0]**2+boki[1]**2:
+        return 'Trójkąt prostokątny'
+    else:
+        return 'Trójkąt ostrokątny'
