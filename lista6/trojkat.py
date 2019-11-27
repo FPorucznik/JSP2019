@@ -1,6 +1,6 @@
 import math
 def obwod(a,b,c):
-    return a+b+c
+    return 'obwód: '+a+b+c
 
 def pole(a,b,c):
     polObwodu=(a+b+c)/2
